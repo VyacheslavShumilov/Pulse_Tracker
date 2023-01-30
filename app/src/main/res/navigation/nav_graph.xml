@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/MainFragment"
-        android:name="ru.vdv.myhealthtracker.ui.main.MainFragment"
+        android:name="com.vshum.pulsetracker.ui.main.MainFragment"
         android:label="@string/main_fragment_label"
-        tools:layout="@layout/mine_fragment">
+        tools:layout="@layout/fragment_main">
     </fragment>
 </navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "519176649753",
+    "project_id": "pulse-tracker-909ad",
+    "storage_bucket": "pulse-tracker-909ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519176649753:android:62ace84f79ae0120403e88",
+        "android_client_info": {
+          "package_name": "com.vshum.pulsetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519176649753-l4hmleiv6el825cbnnvpi804p93lh9v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRVc-F9gzqz39991HEX77Dtx-XIIjak1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519176649753-l4hmleiv6el825cbnnvpi804p93lh9v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
