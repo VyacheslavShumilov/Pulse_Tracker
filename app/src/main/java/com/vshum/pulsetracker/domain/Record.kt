@@ -1,6 +1,8 @@
 package com.vshum.pulsetracker.domain
 
 import android.os.Parcelable
+import com.vshum.pulsetracker.ui.common.ApplicableForMineList
+import kotlinx.parcelize.Parcelize
 import java.util.*
 
 /**

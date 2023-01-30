@@ -12,11 +12,15 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.vshum.pulsetracker.R
+import com.vshum.pulsetracker.databinding.FragmentMainBinding
+import com.vshum.pulsetracker.domain.Record
+import com.vshum.pulsetracker.ui.common.ILongClicked
+import com.vshum.pulsetracker.ui.common.Separator
 
 class MainFragment : Fragment() {
     private lateinit var adapter: MainAdapter
     private lateinit var viewModel: MainViewModel
-    private var _binding: MineFragmentBinding? = null
+    private var _binding: FragmentMainBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -45,7 +49,7 @@ class MainFragment : Fragment() {
             }
         }
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
-        _binding = MineFragmentBinding.inflate(inflater, container, false)
+        _binding = FragmentMainBinding.inflate(inflater, container, false)
         return binding.root
 
     }

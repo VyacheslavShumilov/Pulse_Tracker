@@ -3,6 +3,7 @@ package com.vshum.pulsetracker.ui.common
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.vshum.pulsetracker.databinding.ItemListUnknownTypeBinding
 
 class UnknownTypeViewHolder(
     li: LayoutInflater,

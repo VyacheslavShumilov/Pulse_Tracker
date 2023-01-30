@@ -3,10 +3,13 @@ package com.vshum.pulsetracker.ui.main
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.vshum.pulsetracker.R
 import com.vshum.pulsetracker.domain.BaseConstants
 import com.vshum.pulsetracker.domain.Record
 import com.vshum.pulsetracker.ui.common.*
 import java.text.SimpleDateFormat
+import kotlin.math.abs
+import kotlin.math.max
 
 class MainAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     var items: List<ApplicableForMineList> = listOf()
